@@ -279,7 +279,7 @@ http://<EC2-IP>:3000
 
 ---
 
-# 🎤 Interview Summary
+# 🎤 Summary
 
 “I built a Dockerized Node.js application, deployed it on AWS EC2, automated deployment using GitHub Actions, and used Docker Compose to manage multiple containers including a database.”
 
