@@ -21,5 +21,5 @@ jobs:
             git pull origin master
             sudo docker stop $(sudo docker ps -q) || true
             sudo docker rm $(sudo docker ps -aq) || true
-            sudo docker build -t myapp .
-            sudo docker run -d -p 3000:3000 myapp
+            sudo docker compose down
+            sudo docker compose up -d --build
